@@ -7,20 +7,35 @@ Designed to showcase your skills, projects, and experience with elegant animatio
 
 ---
 
-## ✨ Features
-- 🎨 **Modern UI/UX Design** — clean layout with smooth animations.  
-- 🧭 **Interactive Navigation** — active link highlighting and smooth scroll.  
-- ⌨️ **Typewriter Effect** — dynamic rotating profession titles.  
-- 📱 **Fully Responsive** — optimized for all screen sizes.  
-- 💬 **Contact Form** — ready for backend or API integration.  
-- ⚡ **Performance Optimized** — throttled and debounced scroll events for better performance.
+## 🧰 Tools & Technologies
+| Category | Tools Used |
+|-----------|-------------|
+| **Frontend** | HTML5, CSS3, JavaScript (ES6) |
+| **Styling** | Flexbox, Grid, Transitions, Keyframes |
+| **Icons** | Font Awesome / Boxicons |
+| **Typography** | Google Fonts |
+| **Animations** | Vanilla JS + CSS Animations |
+| **Version Control** | Git & GitHub |
+| **Deployment** | GitHub Pages |
 
 ---
 
-## 🛠️ Built With
-- **HTML5**  
-- **CSS3 (Flexbox & Grid)**  
-- **Vanilla JavaScript (ES6+)**
+## 🧠 Customization
+You can easily customize the project by:
+- Editing your name, bio, and project details in `index.html`
+- Changing theme colors and fonts in `style.css`
+- Replacing the logo in `profile/images/logo.png`
+- Adjusting typing speed, animation timing, and scroll effects in `script.js`
+
+> 💡 Tip: Update the meta description and keywords in the `<head>` tag of `index.html` for better SEO.
+
+---
+
+## 🚀 How to Run Locally
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/portfolio-website.git
 
 ---
 
