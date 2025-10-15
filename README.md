@@ -31,14 +31,6 @@ You can easily customize the project by:
 
 ---
 
-## 🚀 How to Run Locally
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/your-username/portfolio-website.git
-
----
-
 ## 📂 Project Structure
 
 ```bash
@@ -51,5 +43,23 @@ git clone https://github.com/your-username/portfolio-website.git
  ┃ ┣ 📂 icons             # SVGs or icons
  ┃ ┗ 📂 fonts             # Custom fonts (optional)
  ┗ 📜 README.md           # Project documentation
-
+```
 ---
+
+
+## 🚀 How to Run Locally
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/portfolio-website.git
+```
+### 2️⃣ Open the Folde
+```bash
+cd portfolio-website
+```
+3️⃣ Run the Website
+Open the file index.html directly in your browser — that’s it 🎉
+You’ll see your personal portfolio running locally
+---
+
+
