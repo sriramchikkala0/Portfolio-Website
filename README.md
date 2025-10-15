@@ -1,4 +1,4 @@
-![Logo](modern-portfolio-website/pf.png)
+![Logo](protfile/images/pf.png)
 
 # 🌐 Modern Portfolio Website
 
