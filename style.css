@@ -256,17 +256,171 @@ body{
 .highlight{display:flex;gap:12px;align-items:center;color:var(--muted)}
 .highlight i{background:rgba(255,255,255,0.02);padding:8px;border-radius:10px;color:var(--accent)}
 
+/* === Add spacing between About and Skills sections === */
+.about {
+  margin-bottom: 80px; /* space below About section */
+}
+
+.skills {
+  margin-top: 40px; /* optional subtle top space for Skills section */
+}
+
 /* skills */
 .skills-grid{display:flex;flex-wrap:wrap;gap:12px;margin-top:14px}
 .skill{background:rgba(255,255,255,0.02);padding:10px 14px;border-radius:12px;color:var(--muted);font-weight:700}
+/* === Section Spacing Improvements === */
 
-/* projects */
-.cards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:18px}
-.project-card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,0.85);transition:transform .18s,box-shadow .18s}
-.project-card:hover{transform:translateY(-8px);box-shadow:0 30px 80px rgba(0,0,0,0.9)}
-.project-thumb{width:100%;height:160px;object-fit:cover;border-radius:10px;margin-bottom:10px;border:2px solid rgba(255,255,255,0.02)}
-.card-actions{display:flex;gap:10px;margin-top:10px}
-.card-actions a{display:inline-block;padding:8px 12px;border-radius:10px;background:rgba(255,255,255,0.02);color:var(--accent);text-decoration:none;font-weight:700}
+/* Gap between About → Skills */
+.about {
+  margin-bottom: 80px; /* creates breathing space under About section */
+}
+
+/* Gap between Skills → Projects */
+.skills {
+  margin-bottom: 80px; /* adds space before Projects section */
+}
+
+/* Optional: top space for Skills section */
+.skills {
+  margin-top: 40px;
+}
+
+/* Optional: consistent visual flow */
+.projects {
+  margin-top: 40px;
+  margin-bottom: 80px; /* already added before contact */
+}
+
+/* === PROJECTS SECTION — COMPACT ONLY (PASTE/REPLACE THIS BLOCK) === */
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  margin-top: 20px;
+}
+
+/* overall card */
+.project-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  padding: 12px;                /* slightly reduced padding */
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.85);
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+  overflow: hidden;
+}
+
+/* hover effect (keeps theme glow) */
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(255,102,0,0.18);
+}
+
+/* ===== Projects — compact side-by-side row (3 per row desktop) ===== */
+
+.cards-grid {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  align-items: start;
+  margin: 28px 0;
+  width: 100%;
+  grid-template-columns: repeat(3, 220px); /* 3 cards per row on desktop */
+  grid-auto-rows: auto;
+}
+
+/* ensure each card fits the grid column */
+.project-card {
+  width: 220px;
+  max-width: 220px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.85);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform .22s ease, box-shadow .22s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(255,102,0,0.22);
+}
+
+/* square project thumbnails */
+.project-thumb,
+.project-card img {
+  width: 100%;
+  height: 160px; /* compact square */
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  border: 1px solid rgba(255,255,255,0.04);
+  box-shadow: 0 0 10px rgba(255,102,0,0.12);
+}
+
+.project-card h3 {
+  font-size: 0.92rem;
+  color: #fff;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+.project-card p {
+  font-size: 0.78rem;
+  color: var(--muted);
+  line-height: 1.35;
+  margin-bottom: 8px;
+}
+
+/* action buttons */
+.card-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  width: 100%;
+  margin-top: auto;
+}
+
+.card-actions a {
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.03);
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.card-actions a:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* responsive: 2 columns on medium, 1 on small */
+@media (max-width: 1100px) {
+  .cards-grid {
+    grid-template-columns: repeat(2, 220px);
+  }
+}
+@media (max-width: 640px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .project-card {
+    width: 100%;
+    max-width: 420px;
+  }
+  .project-thumb,
+  .project-card img { height: 150px; }
+}
+/* === Add spacing between Projects and Contact sections === */
+.projects {
+  margin-bottom: 80px; /* adjust 60–100px if you want more/less space */
+}
 
 /* contact */
 .contact-grid{display:grid;grid-template-columns:1fr 360px;gap:18px;align-items:start}
