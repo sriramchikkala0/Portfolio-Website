@@ -1,71 +1,129 @@
-![Logo](protfile/images/pf.png)
+# 💼 Sriram Chikkala — Portfolio Website
 
-# 🌐 Modern Portfolio Website
-
-A sleek, responsive, and interactive personal portfolio website built using **HTML**, **CSS**, and **JavaScript**.  
-Designed to showcase your skills, projects, and experience with elegant animations and smooth user interactions.
+This is my personal *portfolio website, built to showcase my **skills, projects, and professional journey* in *AI & ML, **Full Stack Development, and **Data Science*.  
+The site is responsive, clean, and follows a black–orange modern theme.
 
 ---
 
-## 🔗 Live Demo
-You can preview the portfolio locally by opening `index.html` in a modern browser.  
-Or access the online demo here: [Live Demo](https://dazzling-daffodil-0180fd.netlify.app/)
+## 🚀 Live Demo  
+🔗 **[Visit Portfolio Website](https://sriramchikkala0.github.io/Portfolio-Website/)**  
+(Will work once GitHub Pages is enabled — instructions below.)
 
 ---
 
-## 🧰 Tools & Technologies
-| Category | Tools Used |
-|-----------|-------------|
-| **Frontend** | HTML5, CSS3, JavaScript (ES6) |
-| **Styling** | Flexbox, Grid, Transitions, Keyframes |
-| **Icons** | Font Awesome / Boxicons |
-| **Typography** | Google Fonts |
-| **Animations** | Vanilla JS + CSS Animations |
-| **Version Control** | Git & GitHub |
-| **Deployment** | GitHub Pages |
+## 🧑‍💻 About Me  
+
+I'm *Sriram Chikkala, an enthusiastic **AI & ML Engineer* and *Full Stack Developer* with hands-on experience in building real-world projects and intelligent applications.  
+Currently pursuing *B.Tech in AI & DS*, I specialize in combining modern web technologies with machine learning to create practical and impactful digital experiences.
 
 ---
 
-## 🧠 Customization
-You can easily customize the project by:
-- Editing your name, bio, and project details in `index.html`
-- Changing theme colors and fonts in `style.css`
-- Replacing the logo in `profile/images/logo.png`
-- Adjusting typing speed, animation timing, and scroll effects in `script.js`
+## 🛠 Tech Stack  
 
-> 💡 Tip: Update the meta description and keywords in the `<head>` tag of `index.html` for better SEO.
+### Frontend
+- HTML5  
+- CSS3  
+- JavaScript  
+- Responsive Design  
+
+### Backend
+- Python  
+- Node.js  
+- Express.js  
+
+### Machine Learning & Data Science
+- TensorFlow  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Scikit-learn  
+
+### Tools
+- Git & GitHub  
+- VS Code  
+- Docker  
+- Figma  
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Highlights  
 
-```bash
-📦 modern-portfolio-website
- ┣ 📜 index.html          # Main HTML file
- ┣ 📜 style.css           # Website styling
- ┣ 📜 script.js           # Main JavaScript file
- ┣ 📂 assets              # Folder containing all assets
- ┃ ┣ 📂 images            # Images and logos
- ┃ ┣ 📂 icons             # SVGs or icons
- ┃ ┗ 📂 fonts             # Custom fonts (optional)
- ┗ 📜 README.md           # Project documentation
-```
+| Project | Description | Tech Stack |
+|----------|--------------|-------------|
+| *AI Resume Analyzer* | Built an ML-powered resume parser that scores resumes for job matching. | Python, NLP |
+| *T20 World Cup Data Analytics* | Final year project analyzing cricket performance metrics using ML and DL models. | Python, Pandas, Matplotlib |
+| *AI Recommender System* | A smart movie recommendation system deployed via web app. | Python, Flask, ML |
+| *Full Stack Dashboard* | Interactive analytics dashboard for business KPIs. | React, Node.js, MongoDB |
+
 ---
 
+## 📸 Screenshots  
+> (You can replace these paths with your own image names later)  
 
-## 🚀 How to Run Locally
+![Portfolio Screenshot 1](images/profile.jpg)  
+![Portfolio Screenshot 2](images/proj1.jpg)  
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/Saboo24/portfolio-website.git
-```
-### 2️⃣ Open the Folde
-```bash
-cd portfolio-website
-```
-3️⃣ Run the Website
-Open the file index.html directly in your browser — that’s it 🎉
-You’ll see your personal portfolio running locally
 ---
 
+## ⚙ How to Run Locally  
 
+bash
+# Clone the repository
+git clone https://github.com/sriramchikkala0/Portfolio-Website.git
+
+# Navigate to the project folder
+cd Portfolio-Website
+
+# Start a simple local server
+npx http-server
+
+Then open http://127.0.0.1:8080 in your browser.
+
+
+---
+
+🌐 Deploy on GitHub Pages
+
+1. Go to your repository on GitHub.
+
+
+2. Click Settings → Pages.
+
+
+3. Under Source, select:
+
+Branch: main
+
+Folder: / (root)
+
+
+
+4. Click Save — after a minute, your portfolio will be live at:
+👉 https://sriramchikkala0.github.io/Portfolio-Website/
+
+
+
+
+---
+
+📬 Contact
+
+📧 Email: sriramchikkala19@gmail.com
+💼 LinkedIn: linkedin.com/in/sriram-chikkala19
+💻 GitHub: github.com/sriramchikkala0
+
+
+---
+
+⭐ Acknowledgements
+
+Theme inspired by modern dark-mode developer portfolios.
+
+Built with ❤ by Sriram Chikkala.
+
+
+
+
+---
+
+Would you like me to also generate a README badge section (like GitHub stats and language bars at the bottom)? It’ll make the README look even more professional when someone opens it.
